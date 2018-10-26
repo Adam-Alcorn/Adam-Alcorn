@@ -1,0 +1,218 @@
+div {
+  height: 100px;
+  background-color:#C3E2DC;
+}
+
+img {
+max-width: 100%;
+max-height: 100%;
+}
+
+.portrait {
+height: 80px;
+width: 30px;
+}
+
+.landscape {
+height: 30px;
+width: 80px;
+}
+
+.square {
+height: 75px;
+width: 75px;
+}
+
+.header {
+height: 400px;
+width: 100%
+}
+
+.slantedDiv {
+position:relative;
+width: 100%;
+height: 200px;
+background: teal;
+color: #fff;
+opacity: 0.5;
+
+
+
+}
+
+.slantedDiv:after {
+position: absolute;
+width: 100%;
+content: "";
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 100%;
+background: inherit;
+transform-origin: top left;
+transform: skewY(5deg);
+z-index: -1;
+
+}
+
+.slantedDiv1 {
+position:relative;
+width: 100%;
+height: 200px;
+background: white;
+color: #fff;
+opacity: 0.5;
+color: black;
+
+
+
+}
+
+.slantedDiv1:after {
+position: absolute;
+width: 100%;
+content: "";
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 100%;
+background: inherit;
+transform-origin: top left;
+transform: skewY(10deg);
+z-index: -1;
+}
+.slantedDiv2 {
+position:relative;
+width: 100%;
+height: 0px;
+background: white;
+color: #fff;
+opacity: 0.5;
+color: black;
+
+
+
+}
+
+.slantedDiv2:after {
+position: absolute;
+width: 100%;
+content: "";
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 100%;
+background: inherit;
+transform-origin: top left;
+transform: skewY(-3deg);
+z-index: -1;
+}
+
+
+P.blocktext {
+margin: 0;
+margin-left: 50%;
+position: absolute;               
+top: 50%; 
+font-family: "Times New Roman", Times, serif;  
+font-size: 100px;
+transform: translate(0, -50%);
+
+}
+
+img {
+border: 2px solid black;   
+}
+
+.container {
+position: relative;
+margin-top: 100px;
+color: black;
+height: auto;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+background: #DCDCDC;
+border-radius: 15px;
+opacity: 0.7;
+
+}
+
+.example {
+position: absolute;
+top: 0px;
+padding: 50px;
+background-color: white;
+border: 0px solid red;
+}
+
+.accordion {
+background-color:;
+color: #000;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+text-align: center;
+margin-top : 10px;
+margin-bottom: 10px;
+border: none;
+outline: none;
+transition: 0.4s;
+font-size: 20;
+border-radius: 15px;
+}
+
+
+.active, .accordion:hover {
+background-color: #ccc;
+}
+
+
+.panel {
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
+height: auto;
+}
+.footer {
+position: static;
+left: 0;
+bottom: 0;
+height: 100px;
+width: 100%;
+background-color: ;
+color: black;
+text-align: center;
+margin-top: 30%
+
+}  
+body {
+background-image: url("https://cdn.discordapp.com/attachments/465803890189926412/468382763335024640/Untitled-1.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+.body1 {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+.box {
+    height: 400px;
+    opacity: 0;
+}
+.boxH {
+  height: 250px;
+  opacity: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
